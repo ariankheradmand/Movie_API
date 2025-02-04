@@ -4,7 +4,7 @@ import React from "react";
 function Navbar() {
   return (
     <nav className="w-full flex items-center justify-center">
-      <div className="w-full md:w-10/12 lg:translate-y-4 lg:w-8/12 lg:h-36 lg:rounded-md h-[120px] bg-orange">
+      <div className="w-full md:w-10/12 lg:translate-y-4 lg:w-8/12 lg:h-36 lg:mb-4 lg:rounded-md h-[120px] bg-orange">
         <div className="h-full w-full flex items-center justify-center ">
           <div className="flex items-center border-x-2 px-8  relative">
             <span className="text-6xl text-white">Our</span>
