@@ -6,7 +6,7 @@ function Screen() {
   const LG = "lg:w-[180px] lg:h-[180px]";
   const XL = "xl:w-[224px] xl:h-[224px]";
   return (
-    <div className="w-full h-screen absolute pb-[1200px]">
+    <div className="w-full h-screen top-0 fixed -z-10 ">
       <div className="w-full fixed h-full flex flex-col lg:items-center  justify-between bg-black/40 ">
         <div className="relative flex justify-end mx-10 md:mx-32 lg:w-8/12  ">
           <div className={`${SC} ${MC} ${LG} ${XL} w-[120px] h-[120px] rounded-full bg-orange blur-[32px]`}></div>

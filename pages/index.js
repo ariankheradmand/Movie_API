@@ -4,7 +4,7 @@ import Screen from "@/components/Screen";
 import "../app/globals.css"
 export default function index() {
   return (
-    <div className="">
+    <div className="pb-[1200px]">
         <Loading_Sc />
         <Navbar />
         <Screen />

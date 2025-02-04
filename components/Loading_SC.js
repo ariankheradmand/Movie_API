@@ -16,7 +16,7 @@ function Loading_SC() {
   const LG = "lg:-bottom-48 lg:-right-64"
   const XL = "xl:-bottom-64 xl:-right-[600px]"
   return (
-    <div className={`bg-orange  absolute ${!timer && "hidden"} text-white flex w-full h-screen overflow-hidden`}>
+    <div className={`bg-orange z-20 absolute ${!timer && "hidden"} text-white flex w-full h-screen overflow-hidden`}>
       <div className="w-full h-full text-center absolute">
         <div
           className={`w-8/12 h-4/5 bg-white rounded-full blur-[110px] absolute -bottom-48 -right-24
